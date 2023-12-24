@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Buy your ticket",
-  description: "Buy your ticket online",
+  title: "Keys2ville",
+  description: "Translation and Events services",
   icons: {
     icon: "../public/assets/images/logo.svg",
   },

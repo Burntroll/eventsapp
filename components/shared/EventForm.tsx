@@ -27,6 +27,7 @@ import { useUploadThing } from "@/lib/uploadthing";
 import "react-datepicker/dist/react-datepicker.css";
 import { Checkbox } from "@/components/ui/checkbox";
 import { useRouter } from "next/navigation";
+import { createEvent } from "@/lib/actions/event.actions";
 
 const formSchema = z.object({
   username: z.string().min(2, {
